@@ -43,3 +43,26 @@ table {
 }
 
 /* My CSS code */
+* {
+    border: 7px solid #1C6EA4;
+}
+
+p {
+    font-family: "Roboto";
+}
+p strong{
+    font-weight: bold;
+}
+
+.post{
+    width: 30vw;
+}
+.post-header{
+    display: flex;
+    flex-direction: row;
+}
+
+.fa-regular{
+    width: 25px;
+    height: 250px;
+}
