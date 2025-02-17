@@ -43,26 +43,56 @@ table {
 }
 
 /* My CSS code */
-* {
-    border: 7px solid #1C6EA4;
-}
-
 p {
     font-family: "Roboto";
 }
 p strong{
     font-weight: bold;
 }
-
+body{
+	background-color: gray;
+}
 .post{
-    width: 30vw;
+    width: 27vw;
+	min-width: 400px;
+	background-color: white;
+	margin: auto;
+	margin-top: 30px;
+	padding: 15px 0 15px 0;
 }
 .post-header{
     display: flex;
     flex-direction: row;
+    width: 98%;
+	margin: 15px 2% 15px 2%;
 }
 
-.fa-regular{
-    width: 25px;
-    height: 250px;
+.html-icon{
+	align-content: center;
+	margin-right: 10px;
+}
+
+.post-options, post-buttons-right{
+    margin-left: auto;
+	margin-right: 10px;
+}
+
+.post-photo img{
+    width: 100%;
+}
+.post-buttons{
+	display: flex;
+	margin: 15px 15px 15px 10px;
+}
+
+.post-buttons-right{
+	margin-left: auto;
+}
+
+.likes, .description{
+	margin: 15px 15px 0 10px;
+}
+.likes, .description p{
+	
+	line-height: normal;
 }
